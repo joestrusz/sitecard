@@ -44,7 +44,7 @@ function gitInfo($gitBasePath = '.git') {
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" href="/images/favicon16.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 	</head>
 	<body class="is-preload">
 
@@ -57,7 +57,11 @@ function gitInfo($gitBasePath = '.git') {
 						<div class="content">
 							<div class="inner">
 								<h1>Joseph Strusz</h1>
-								<p></p>
+								<p>
+<h3>Sailor - Engineer - Chef<br />
+☠ ⚡🔪 </h3>
+<h4 style="margin-top:-10px;">Luxury is the Knife in the Back of Freedom </h4>
+</p>
 							</div>
 						</div>
 						<nav>
@@ -371,7 +375,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; 2025 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joseph Strusz</a> <b>|</b> V.<?php echo $hash; ?></p>
+						<p class="copyright">&copy; 2025 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joseph Strusz</a> <b>|</b> HASH: <b><?php echo $hash; ?><b /></p>
 					</footer>
 
 			</div>
