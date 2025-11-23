@@ -2,48 +2,44 @@
 $info = gitInfo();
 $hash = substr($info['hash'], 0, 6);
 echo "Hash: " . $hash . "<br />";
-function gitInfo($gitBasePath = '.git')
-{
-  $info['branch'] = '';
-  $info['hash'] = '';
-
-  if (file_exists($gitBasePath . '/HEAD') && $gitStr = trim(file_get_contents($gitBasePath . '/HEAD'))) {
-    $info['branch'] = rtrim(preg_replace("/(.*?\/){2}/", '', $gitStr));
-    $gitPathBranch = $gitBasePath . '/refs/heads/' . $info['branch'];
-    if (file_exists($gitPathBranch)) {
-      $info['hash'] = file_get_contents($gitPathBranch);
-    } else {
-      $info['hash'] = $info['branch'];
-      $info['branch'] = '';
-      if (file_exists($gitBasePath . '/packed-refs')) {
-        $packed_refs_data = file_get_contents($gitBasePath . '/packed-refs');
-        $packed_refs = explode("\n", $packed_refs_data);
-        foreach ($packed_refs as $key => $line) {
-          if ($line == '^' . $info['hash']) {
-            $go = TRUE;
-            for ($i = $key; $go == TRUE; $i--) {
-              if (substr($packed_refs[$i], 0, 1) != '^') {
-                $info['branch'] = rtrim(preg_replace("/(.*?\/){2}/", '', $packed_refs[$i]));
-                $go = FALSE;
-              }
-              else if ($i == 0) {
-                $info['branch'] = $info['hash'];
-                $go = FALSE;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
-  return $info;
+function gitInfo($gitBasePath = '.git') {
+	$info['branch'] = '';
+	$info['hash'] = '';
+	if (file_exists($gitBasePath . '/HEAD') && $gitStr = trim(file_get_contents($gitBasePath . '/HEAD'))) {
+		$info['branch'] = rtrim(preg_replace("/(.*?\/){2}/", '', $gitStr));
+		$gitPathBranch = $gitBasePath . '/refs/heads/' . $info['branch'];
+		if (file_exists($gitPathBranch)) {
+			$info['hash'] = file_get_contents($gitPathBranch);
+			} else {
+				$info['hash'] = $info['branch'];
+				$info['branch'] = '';
+				if (file_exists($gitBasePath . '/packed-refs')) {
+					$packed_refs_data = file_get_contents($gitBasePath . '/packed-refs');
+					$packed_refs = explode("\n", $packed_refs_data);
+					foreach ($packed_refs as $key => $line) {
+						if ($line == '^' . $info['hash']) { 
+						$go = TRUE;
+						for ($i = $key; $go == TRUE; $i--) {
+							if (substr($packed_refs[$i], 0, 1) != '^') {
+								$info['branch'] = rtrim(preg_replace("/(.*?\/){2}/", '', $packed_refs[$i]));
+								$go = FALSE;
+							} else if ($i == 0) {
+								$info['branch'] = $info['hash'];
+								$go = FALSE;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	return $info;
 }
 ?>
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Joe Strusz</title>
+		<title>Joseph Strusz</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -60,7 +56,7 @@ function gitInfo($gitBasePath = '.git')
 						<img src="images/profile.jpg" style="width:100px;border-radius:50px;">
 						<div class="content">
 							<div class="inner">
-								<h1>Joe Strusz</h1>
+								<h1>Joseph Strusz</h1>
 								<p></p>
 							</div>
 						</div>
@@ -375,7 +371,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; 2025 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joe Strusz</a> <b>|</b> V.<?php echo $hash; ?></p>
+						<p class="copyright">&copy; 2025 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joseph Strusz</a> <b>|</b> V.<?php echo $hash; ?></p>
 					</footer>
 
 			</div>

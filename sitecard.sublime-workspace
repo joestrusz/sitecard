@@ -8,94 +8,72 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 12100,
+				"buffer_size": 13376,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
 				[
-					5,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAADcBAAAAAAAAOgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANwEAAAAAAAA3AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"paste",
-					null,
-					"AQAAADoBAAAAAAAAeAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAOgEAAAAAAAA6AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					8,
-					1,
-					"left_delete",
-					null,
-					"AQAAADcBAAAAAAAANwEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAOAEAAAAAAAA4AQAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					9,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAADcBAAAAAAAAOgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANwEAAAAAAAA3AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					4,
-					"right_delete",
-					null,
-					"BAAAADoBAAAAAAAAOgEAAAAAAAABAAAACToBAAAAAAAAOgEAAAAAAAABAAAACToBAAAAAAAAOgEAAAAAAAABAAAAIDoBAAAAAAAAOgEAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAOgEAAAAAAAA6AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					11,
-					2,
-					"right_delete",
-					null,
-					"AgAAADoBAAAAAAAAOgEAAAAAAAABAAAAIDoBAAAAAAAAOgEAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAOgEAAAAAAAA6AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					13,
-					1,
-					"left_delete",
-					null,
-					"AQAAAHMBAAAAAAAAcwEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAdAEAAAAAAAB0AQAAAAAAAAAAAAAAgFBA"
-				],
-				[
 					16,
 					1,
-					"insert",
-					{
-						"characters": "32"
-					},
-					"AgAAAFkBAAAAAAAAWgEAAAAAAAAAAAAAWgEAAAAAAABbAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAWQEAAAAAAABZAQAAAAAAAAAAAAAAAPC/"
+					"left_delete",
+					null,
+					"AQAAAGMHAAAAAAAAYwcAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAZAcAAAAAAABkBwAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					18,
+					17,
 					1,
 					"insert",
 					{
-						"characters": "images/"
+						"characters": "seph"
 					},
-					"BwAAAFIBAAAAAAAAUwEAAAAAAAAAAAAAUwEAAAAAAABUAQAAAAAAAAAAAABUAQAAAAAAAFUBAAAAAAAAAAAAAFUBAAAAAAAAVgEAAAAAAAAAAAAAVgEAAAAAAABXAQAAAAAAAAAAAABXAQAAAAAAAFgBAAAAAAAAAAAAAFgBAAAAAAAAWQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAUgEAAAAAAABSAQAAAAAAAAAAAAAAAPC/"
+					"BAAAAGMHAAAAAAAAZAcAAAAAAAAAAAAAZAcAAAAAAABlBwAAAAAAAAAAAABlBwAAAAAAAGYHAAAAAAAAAAAAAGYHAAAAAAAAZwcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwcAAAAAAABjBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"left_delete",
+					null,
+					"AQAAAK0yAAAAAAAArTIAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAArjIAAAAAAACuMgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "seph"
+					},
+					"BAAAAK0yAAAAAAAArjIAAAAAAAAAAAAArjIAAAAAAACvMgAAAAAAAAAAAACvMgAAAAAAALAyAAAAAAAAAAAAALAyAAAAAAAAsTIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArTIAAAAAAACtMgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "{\n\t\"$schema\": \"sublime://packagecontrol.io/schemas/channel\",\n\t\"schema_version\": \"4.0.0\",\n\t\"repositories\": [\n\t\t\"\"\n\t]\n}\n",
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Windows",
+				"name": "channel.json"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{\n\t\"\\$schema\": \"sublime://packagecontrol.io/schemas/channel\",\n\t\"schema_version\": \"4.0.0\",\n\t\"repositories\": [\n\t\t\"$0\"\n\t]\n}\n"
+					},
+					"AQAAAAAAAAAAAAAAdgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		}
@@ -136,6 +114,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/joest/Desktop/sitecard/index.php",
 		"/C/Users/joest/Desktop/sitecard/index.html",
 		"/C/Users/joest/Desktop/sitecard/assets/css/main.css",
 		"/C/Users/joest/Desktop/FMPA.cfg",
@@ -162,6 +141,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"joe strusz"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -185,27 +165,56 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"selected": true,
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12100,
+						"buffer_size": 13376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								345,
-								345
+								12811,
+								12811
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6671.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\joest\\AppData\\Roaming\\Sublime Text\\Packages\\User",
+							"syntax": "JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
