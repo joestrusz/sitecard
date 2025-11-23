@@ -1,7 +1,6 @@
 <?php
 $info = gitInfo();
 $hash = substr($info['hash'], 0, 6);
-echo "Hash: " . $hash . "<br />";
 function gitInfo($gitBasePath = '.git') {
 	$info['branch'] = '';
 	$info['hash'] = '';
