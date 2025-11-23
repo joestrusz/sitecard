@@ -1,3 +1,6 @@
+<?php
+$gitVersion = shell_exec('git --version');
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -333,7 +336,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; 2025 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joe Strusz</a>.</p>
+						<p class="copyright">&copy; 2025 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joe Strusz</a> <b>|</b> v<?php echo $gitVersion; ?></p>
 					</footer>
 
 			</div>
@@ -350,3 +353,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+<?php
+if ($gitVersion === null) {
+    //echo "Git is not installed or not in the system's PATH.\n";
+} else {
+    echo trim($gitVersion);
+}
+?>
