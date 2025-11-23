@@ -341,7 +341,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; 2025 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joe Strusz</a> <b>|</b> v<?php echo $gitVersion; ?></p>
+						<p class="copyright">&copy; 2025 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joe Strusz</a> <b>|</b> v<?php echo $gitHash; ?></p>
 					</footer>
 
 			</div>
