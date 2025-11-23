@@ -1,5 +1,10 @@
 <?php
 $gitVersion = shell_exec("git --version  | sed 's/git version //g'");
+if ($gitVersion === null) {
+    //echo "Git is not installed or not in the system's PATH.\n";
+} else {
+    echo trim($gitVersion);
+}
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -353,10 +358,3 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
-<?php
-if ($gitVersion === null) {
-    //echo "Git is not installed or not in the system's PATH.\n";
-} else {
-    echo trim($gitVersion);
-}
-?>
