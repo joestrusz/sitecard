@@ -1,9 +1,9 @@
 <?php
-$gitVersion = shell_exec("git --version  | sed 's/git version //g'");
-if ($gitVersion === null) {
+$gitHash = shell_exec("git rev-parse HEAD");
+if ($gitHash === null) {
     //echo "Git is not installed or not in the system's PATH.\n";
 } else {
-    echo trim($gitVersion);
+    echo trim($gitHash);
 }
 ?>
 <!DOCTYPE HTML>
