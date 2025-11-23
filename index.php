@@ -1,5 +1,5 @@
 <?php
-$gitVersion = shell_exec('git --version');
+$gitVersion = shell_exec("git --version  | sed 's/git version //g'");
 ?>
 <!DOCTYPE HTML>
 <html>
