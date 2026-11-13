@@ -60,7 +60,8 @@ function gitInfo($gitBasePath = '.git') {
 						<div class="content">
 							<div class="inner">
 								<h1>Joseph Strusz</h1>
-								<h4 style="margin-top:-10px;">Luxury is the Knife in the Back of Freedom </h4>
+								<h6 style="margin-top:-10px;">+1 (305) 619-3868 ..:.:::.:.. joe.strusz[at]gmail.com</h6>
+								<!--<h4 style="margin-top:-10px;">Luxury is the Knife in the Back of Freedom </h4>-->
 							</div>
 						</div>
 						<nav>
