@@ -60,19 +60,15 @@ function gitInfo($gitBasePath = '.git') {
 						<div class="content">
 							<div class="inner">
 								<h1>Joseph Strusz</h1>
-								<p>
-<h3>Sailor - Engineer - Chef<br />
-☠ ⚡🔪 </h3>
-<h4 style="margin-top:-10px;">Luxury is the Knife in the Back of Freedom </h4>
-</p>
+								<h4 style="margin-top:-10px;">Luxury is the Knife in the Back of Freedom </h4>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
+								<!--<li><a href="#intro">Intro</a></li>-->
 								<!--<li><a href="/blog">Blog</a></li>-->
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#about">About</a></li>-->
+								<!--<li><a href="#contact">Contact</a></li>-->
 								<!--<li><a href="https://forum.joestrusz.com">Forum</a></li>-->
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -379,7 +375,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; 2025 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joseph Strusz</a> <b>|</b> HASH: <b><?php echo $hash; ?><b /></p>
+						<p class="copyright">&copy; 2026 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joseph Strusz</a> <b>|</b> HASH: <b><?php echo $hash; ?><b /></p>
 					</footer>
 
 			</div>
