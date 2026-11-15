@@ -69,13 +69,13 @@ function gitInfo($gitBasePath = '.git') {
 								<!--<li><a href="#intro">Intro</a></li>-->
 								<!--<li><a href="/blog">Blog</a></li>-->
 								<!--<li><a href="#about">About</a></li>-->
-								<!--<li><a href="#contact">Contact</a></li>-->
+								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="https://forum.joestrusz.com">Forum</a></li>-->
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
 					</header>
-<h6>BTC: 1CtDmBVBUexHgNS8AroABjx2JLDGoAMNnv</h6>
+
 				<!-- Main -->
 					<div id="main">
 
@@ -123,11 +123,11 @@ function gitInfo($gitBasePath = '.git') {
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<ul class="icons">
+								<!--<ul class="icons">
 									<li><a target="new" href="https://www.facebook.com/joseph.strusz/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a target="new" href="https://www.instagram.com/joseph.strusz/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<br /><br/><a target="" href="tel:+13056193868" class=""><span class="label">+1 (305) 619-3868</span></a>
-								</ul>
+								</ul>-->
 							</article>
 
 						<!-- Elements -->
@@ -376,6 +376,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
+						<h6>BTC: 1CtDmBVBUexHgNS8AroABjx2JLDGoAMNnv</h6>
 						<p class="copyright">&copy; 2026 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joseph Strusz</a> <b>|</b> HASH: <b><?php echo $hash; ?><b /></p>
 					</footer>
 
