@@ -376,7 +376,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<h6>BTC: 1CtDmBVBUexHgNS8AroABjx2JLDGoAMNnv</h6>
+						<!--<h6>BTC: 1CtDmBVBUexHgNS8AroABjx2JLDGoAMNnv</h6>-->
 						<p class="copyright">&copy; 2026 <b>|</b> Untitled <b>|</b> Design by <a href="https://www.joestrusz.com">Joseph Strusz</a> <b>|</b> HASH: <b><?php echo $hash; ?><b /></p>
 					</footer>
 
