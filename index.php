@@ -75,7 +75,7 @@ function gitInfo($gitBasePath = '.git') {
 							</ul>
 						</nav>
 					</header>
-
+<h6>BTC: 1CtDmBVBUexHgNS8AroABjx2JLDGoAMNnv</h6>
 				<!-- Main -->
 					<div id="main">
 
