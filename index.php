@@ -52,7 +52,7 @@ function gitInfo($gitBasePath = '.git') {
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" style="background-color:black;">
 
 				<!-- Header -->
 					<header id="header">
